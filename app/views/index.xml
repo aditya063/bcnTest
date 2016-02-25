@@ -1,5 +1,6 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+	<Window class="container" layout="vertical">
+		<Button id="label" onClick="startmon" title="Start Monitoring" />
+		<Button id="label" onClick="stopmon" title="Stop Monitoring" />
 	</Window>
 </Alloy>
